@@ -6,3 +6,7 @@
       name: hemantpatil1
       state: present
       uid: 6666
+  - name: Create file
+    file:
+      name: /home/ubuntu/myfile
+      state: touch

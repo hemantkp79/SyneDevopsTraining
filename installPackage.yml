@@ -1,0 +1,11 @@
+---
+- hosts: node
+  tasks:
+  - name: install package
+    apt:
+      name: nginx
+      state: present
+  - name: Start Service
+    service:
+      name: nginx
+      state: started
