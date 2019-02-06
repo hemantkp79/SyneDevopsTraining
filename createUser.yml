@@ -1,0 +1,8 @@
+---
+- hosts: nodeip
+  tasks:
+  - name: Create User
+    user:
+      name: hemantpatil1
+      state: present
+      uid: 6666

@@ -1,0 +1,7 @@
+---
+- hosts: node
+  tasks:
+  - name: Creating User
+    user:
+      name: hemantpatil
+      state: present
