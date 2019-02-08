@@ -1,1 +1,1 @@
-echo "Jenkins integration checked"
+echo "Jenkins integration checked updated"
